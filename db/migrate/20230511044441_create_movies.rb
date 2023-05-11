@@ -4,6 +4,7 @@ class CreateMovies < ActiveRecord::Migration[7.0]
       t.string :title
       t.text :overview
       t.float :rating
+      t.text :poster_url
 
       t.timestamps
     end
